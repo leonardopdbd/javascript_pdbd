@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Curtidas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+    }
+    input, button {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Curtidas</h1>
+  
+  <!-- Campo de texto para o nome -->
+  <input type="text" id="nome" placeholder="Digite seu nome">
+  
+  <!-- Botão para curtir -->
+  <button onclick="curtir()">Curtir</button>
+  
+  <!-- Parágrafo que mostrará as curtidas -->
+  <p id="curtidas">Ninguém curtiu</p>
+
+  <!-- Importando o arquivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
