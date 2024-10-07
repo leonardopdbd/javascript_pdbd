@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Busca no GitHub e Feed Social</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Contêiner principal -->
+  <div class="container">
+
+    <!-- Seção de busca de usuários do GitHub -->
+    <section class="github-search">
+      <h1>Buscar Usuários no GitHub</h1>
+      <div class="search-box">
+        <input type="text" id="searchUser" placeholder="Digite o nome de usuário">
+        <button id="searchBtn">Buscar</button>
+      </div>
+      <ul id="userList"></ul>
+    </section>
+
+    <!-- Seção de feed social -->
+    <section class="social-feed">
+      <h1>Feed de Postagens</h1>
+      <form id="postForm">
+        <textarea id="postText" placeholder="O que você está pensando?"></textarea>
+        <button type="submit">Postar</button>
+      </form>
+      <ul id="feedList"></ul>
+    </section>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
